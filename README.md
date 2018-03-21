@@ -6,20 +6,7 @@ A [simple] circular View Pager for Android
 
 ### Gradle build
 
-At your project level build.gradle file :
-<pre>
-allprojects {
-    repositories {
-        google()
-        jcenter()
-        maven {
-            <b>url 'https://dl.bintray.com/bungamungil/maven'</b>
-        }
-    }
-}
-</pre>
-
-Then in your app level build.gradle file :
+To use the library in your project add the following to your `build.gradle` :
 <pre>
 dependencies {
     // another dependencies ...
