@@ -9,8 +9,6 @@ android {
     defaultConfig {
         targetSdkVersion 27
         minSdkVersion 14
-        versionName project.VERSION_NAME
-        versionCode Integer.parseInt(project.VERSION_CODE)
     }
 
     compileOptions {
@@ -22,3 +20,31 @@ android {
 dependencies {
     compile 'com.android.support:support-v4:27.1.0'
 }
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'infinite-view-pager'
+
+    publishedGroupId = 'id.bungamungil'
+    libraryName = 'infinite-view-pager'
+    artifact = 'infinite-view-pager'
+
+    libraryDescription = 'A circular View Pager for Android'
+
+    siteUrl = 'https://github.com/bungamungil/android-infinite-view-pager'
+    gitUrl = 'https://github.com/bungamungil/android-infinite-view-pager.git'
+
+    libraryVersion = '1.0.1'
+
+    developerId = 'naufalfachrian'
+    developerName = 'Naufal Fachrian'
+    developerEmail = 'naufal.fachrian@gmail.com'
+    organization = 'bungamungil'
+
+    licenseName = 'MIT'
+    licenseUrl = 'https://opensource.org/licenses/MIT'
+    allLicenses = ["MIT"]
+}
+
+apply from: 'https://gist.githubusercontent.com/naufalfachrian/124862ce975299ce7c9b0d785388ab06/raw/c15e187e5322e15b0fc1ee0ecd3a9d42d718b83b/install.gradle'
+apply from: 'https://gist.githubusercontent.com/naufalfachrian/124862ce975299ce7c9b0d785388ab06/raw/c15e187e5322e15b0fc1ee0ecd3a9d42d718b83b/bintray.gradle'
