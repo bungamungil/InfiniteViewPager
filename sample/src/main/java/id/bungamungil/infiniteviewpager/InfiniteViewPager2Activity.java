@@ -1,4 +1,4 @@
-package com.antonyt.infiniteviewpager;
+package id.bungamungil.infiniteviewpager;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 
 /**
- * Sample for {@link com.antonyt.infiniteviewpager.MinFragmentPagerAdapter} (support for less than
+ * Sample for {@link MinFragmentPagerAdapter} (support for less than
  * 4 pages). Duplicate instances of pages will be created to fulfill the min case.
  */
 public class InfiniteViewPager2Activity extends FragmentActivity {

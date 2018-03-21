@@ -1,4 +1,6 @@
-apply plugin: 'com.android.application'
+apply plugin: 'com.android.library'
+
+group 'id.bungamungil.infinite-view-pager'
 
 android {
     compileSdkVersion 27
@@ -15,10 +17,8 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_7
         targetCompatibility JavaVersion.VERSION_1_7
     }
-
 }
 
 dependencies {
     compile 'com.android.support:support-v4:27.1.0'
-    compile project(':library')
 }
