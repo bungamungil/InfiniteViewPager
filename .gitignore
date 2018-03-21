@@ -11,3 +11,6 @@ local.properties
 .project
 
 *.DS_Store
+gradle/wrapper
+gradlew
+gradlew.bat
